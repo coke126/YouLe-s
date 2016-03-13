@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>YouLe's</title>
+	<link rel="stylesheet" href="style.css" />
+<script type="text/javascript">
+window.onload=function()
+{
+	var oAside=document.getElementById("aside");
+	var oSection=document.getElementById("section");
+	var hSection=oSection.offsetHeight;
+	oAside.style.height=hSection+'px';
+}
+window.onresize=function()
+{
+	var oAside=document.getElementById("aside");
+	var oSection=document.getElementById("section");
+	var hSection=oSection.offsetHeight;
+	oAside.style.height=hSection+'px';
+}
+</script>
+</head>
+<body>
+	<aside id="aside">
+		<img src="img/logo.png" />
+		<nav>
+			<li><a href="#">主页</a></li>
+			<li><a href="#">成员</a></li>
+			<li><a href="#">成员</a></li>
+			<li><a href="#">成员</a></li>
+			<li><a href="#">成员</a></li>
+		</nav>
+		<p>加油，骚年</p>
+	</aside>
+
+	<section id="section">
+		<div class="right">
+			<img src="img/photo.png" />
+			<p>游 乐</p>
+			<p style="font-size:0.8em;">大三 · 网络与新媒体</p>
+		</div>
+		<div class="left">
+			<img src="img/yq.gif" />
+			<p>
+因为喜欢PS，<br/>选了看起来相关的专业，<br/>
+进去起初狭隘地以为，<br/>设计拼不过美术系的，<br/>
+自己对敲敲打打也蛮感兴趣，<br/>
+于是选择了设计和编程的结合体，<br/>至今并热爱着它。<br/>
+<br/>
+但不够勤奋和聪明，<br/>
+跌跌撞撞，<br/>
+还挣扎在初学者的路上，<br/>
+希望通过这次前端学院的学习，<br/>
+可以提升一点点的自己。<br/>
+
+			</p>
+		</div>
+		<div class="left">
+			<img src="img/intro.png"/>
+			<p>我是南方的一枚妹纸，<br/>女生喜欢的我会喜欢，<br/>拍照和旅游，<br/>
+			唱歌和跳舞，<br/>女生不喜欢的我也会喜欢，<br/>旅游是只要一个人的，<br/>唱歌是只会说唱的。<br/><br/>自己觉得目前做过最酷的事情，<br/>就是从南方坐三天无座火车到北方，<br/>拍脑袋就能决定的事，<br/>年轻就要多试试嘛，<br/>活在当下，及时行乐。<br/></p>
+		</div>
+	</section>
+</body>
+</html>

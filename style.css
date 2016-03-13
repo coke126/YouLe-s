@@ -1,0 +1,64 @@
+html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	color: #888;
+	font-family: "微软雅黑";
+	background-color: #edf7fd;
+}
+a {
+	text-decoration: none;
+	color:#694887}
+/*侧边栏*/
+aside {
+	
+	display: inline-block;
+	width: 20%;
+	/*height: 100%;*/
+	padding: 3% 0;
+	background-color: #c6e3f7;
+	text-align: center;
+}
+nav {
+	width: 100px;
+	margin: 20% auto;
+	padding: 20px 0;
+	border-top: 3px solid #694887;
+	border-bottom: 3px solid #694887;
+}
+nav li {
+	padding: 10px 0;
+	font-size: 1.2em;
+	list-style-type: none;
+}
+/*侧边栏结束*/
+
+section {
+	float: right;
+	width: 70%;
+	/*height: 100%;*/
+	padding: 5%;
+}
+section .right {
+	float: right;
+	text-align: center;
+	font-size: 1.6em;
+	color: #694887;
+}
+section .right img {
+	width: 55%;
+}
+section .left {
+	display: inline-block;
+	width: 30%;
+}
+section .left p {
+	margin-top: 10%;
+	text-align: center;
+	line-height: 2em;
+}
